@@ -1,11 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T23:09:31.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="d-544JO5d28N_-hJ5Kvt" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-14T01:15:41.876Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="G05L63ZnM_CU4T5MGBqQ" version="15.5.2" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1460" dy="933" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2109" value="Internet" style="shape=mxgraph.cisco.storage.cloud;html=1;dashed=0;strokeColor=#23445D;fillColor=#ffffff;strokeWidth=2;fontFamily=Helvetica;fontSize=24;fontColor=#23445D;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="288" y="50" width="186" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="HtU_zdywN7P8xVxfZPmP-2282" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.755;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontSize=14;" edge="1" parent="1" source="2112" target="HtU_zdywN7P8xVxfZPmP-2278">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HtU_zdywN7P8xVxfZPmP-2283" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontSize=14;" edge="1" parent="1" source="2112" target="HtU_zdywN7P8xVxfZPmP-2258">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HtU_zdywN7P8xVxfZPmP-2284" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.95;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.19;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontSize=14;" edge="1" parent="1" source="2112" target="HtU_zdywN7P8xVxfZPmP-2279">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2112" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" parent="1" vertex="1">
           <mxGeometry x="349" y="480" width="64" height="64" as="geometry" />
@@ -70,6 +79,15 @@
         </mxCell>
         <mxCell id="HtU_zdywN7P8xVxfZPmP-2280" value="&lt;font style=&quot;font-size: 14px&quot;&gt;VMware Virtual Switch&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="306" y="443" width="150" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="HtU_zdywN7P8xVxfZPmP-2285" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Metasploitable 2 VM&lt;br&gt;IP Address: 192.168.83.128&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="42.5" y="744" width="182" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="HtU_zdywN7P8xVxfZPmP-2286" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Kali (Attacker) VM&lt;br&gt;IP Address: 192.168.83.129&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="744" width="182" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="HtU_zdywN7P8xVxfZPmP-2287" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Windows 7 VM&lt;br&gt;IP Address: 192.168.83.131&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="744" width="182" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
